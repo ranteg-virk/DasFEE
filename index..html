@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Productivity Track</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+  <title>selfmapping</title>
+
+  <!-- Insight charts using Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <button>Home</button>
-    
+  <nav>
+    <div class="logo">soi.map</div>
+
+    <div class="navLinks">
+      <button id="insightBtn">Insight-Chart</button>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <div class="mainContainer">
+    <div class="calendarBox">
+      <div class="calendarHeader">
+        <button id="prevMonth"><</button>
+
+        <h2 id="monthYear"></h2>
+        <button id="nextMonth">></button>
+      </div>
+
+      <div class="daysRow">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+      </div>
+      <div class="calendarGrid"
+      id="calendar"></div>
+    </div>
+  </div>
+
+  <!-- for rating popup -->
+  <div class="popup" id="popup">
+    <div class="popupBox">
+      <h3>Productivity Measur</h3>
+
+      <div class="numbers"
+      id="numbers"></div>
+      <button id="closeBtn">X</button>
+    </div>
+  </div>
+
+  <!-- for insight chart popup -->
+  <div class="chartPopup"
+  id="chartPopup">
+    <div class="chartBox">
+      <div class="chartTop">
+        <h2>Month Insights</h2>
+        <button id="closeChart">✕</button>
+      </div>
+
+      <canvas id="ratingChart"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
