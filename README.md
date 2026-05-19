@@ -1,9 +1,25 @@
 # Das-FEE-Project
 Front-End Engineering Project for Evaluation (2nd Semester)
-So the idea is to make a student productivity website to track university learning journey and get insights over period of time.
+soi.map is a simple productivity and rating tracker website built using HTML, CSS, JavaScript and Chart.js.
 
-Main Features: 
-LinkedIn Skill section-as in daily activities towards a particular goal.
-Chart Insight of the data to see progress (make it for 2-3 parameters)
-Toggle mode Dark Light
+Users can:
+- View a monthly calendar
+- Click any date
+- Assign a productivity rating from 1–10
+- Store ratings using LocalStorage
+- View monthly productivity insights in a line chart
 
+Features:
+- Monthly calendar view
+- Previous / Next month navigation between months
+- Clickable dates
+- Popup rating system
+- Ratings stored permanently in browser
+- Monthly analytics chart
+- Dark minimalist theme
+
+Technologies Used:
+- HTML
+- CSS
+- JavaScript
+- Chart.js
