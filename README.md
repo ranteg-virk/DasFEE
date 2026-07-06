@@ -1,7 +1,7 @@
 # Das-FEE-Project
 Front-End Engineering Project for Evaluation (2nd Semester)
 
-soi.map is a simple productivity and rating tracker website built using HTML, CSS, JavaScript and Chart.js.
+soi.map is a simple productivity rating website using which you can track your progress over time. It's built using HTML, CSS, JavaScript and Chart.js.
 
 Users can:
 - View a monthly calendar
