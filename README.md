@@ -1,6 +1,6 @@
 # Das-FEE-Project
 Front-End Engineering Project for Evaluation (2nd Semester)
-soi.map is a simple productivity rating webpage using which you can track your progress over time.
+soi.map (which translates to self-mapping) is a simple productivity rating webpage using which you can track your progress over time.
 
 Users can:
 - Click any date on month wise calendar
